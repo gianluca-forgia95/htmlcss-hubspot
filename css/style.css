@@ -7,6 +7,7 @@ body {
 font-family: 'Montserrat', sans-serif;
 
 }
+/* navigazione iniziale */
 .container {
   width: 80% ;
   margin: auto;
@@ -78,4 +79,36 @@ ul li a {
 #search {
   color: #00ccff;
   font-size: 20px;
+}
+/*/navigazione iniziale */
+/* separatore sezioni */
+.hr-iniziale {
+  color: #003d4d;
+  margin-top: 20px;
+}
+/* /separatore sezioni */
+.row {
+  width: 80% ;
+  margin: auto;
+  height: 100px;
+}
+.nav-logo {
+  float: left;
+  width: 50%;
+}
+#logo {
+
+  margin-top: 35px;
+}
+.ricerca {
+  width: 50%;
+  float: left;
+}
+.src ul li {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+.angle {
+  margin: 0 10px;
 }
