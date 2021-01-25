@@ -71,6 +71,7 @@ ul li a {
   border-radius: 8px;
   background-color: #ff7733;
   border: 1px solid #fff;
+  text-align: center;
 }
 .btn-2 a {
   color: #fff;
@@ -87,6 +88,7 @@ ul li a {
   margin-top: 20px;
 }
 /* /separatore sezioni */
+/* seconda navigazione */
 .row {
   width: 80% ;
   margin: auto;
@@ -97,7 +99,6 @@ ul li a {
   width: 50%;
 }
 #logo {
-
   margin-top: 35px;
 }
 .ricerca {
@@ -112,3 +113,44 @@ ul li a {
 .angle {
   margin: 0 10px;
 }
+.src ul li a {
+  color: #003d4d;
+}
+/* /seconda navigazione */
+/* Hero */
+.hero {
+  width: 80%;
+  margin: auto;
+  background-color: #ffddcc;
+  height: 600px;
+  background-image: url('../img/jumbotron.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-text {
+  width: 50%;
+  padding-top: 20px;
+  color: #003d4d;
+}
+.hero-text h1 {
+  font-size: 50px;
+  font-weight: 800;
+  width: 60%;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.hero-text p {
+line-height: 30px;
+margin-bottom: 20px;
+}
+.hero-text > .btn-2 {
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.hero-text small {
+  line-height: 30px;
+
+}
+
+/* /Hero */
