@@ -9,24 +9,73 @@ font-family: 'Montserrat', sans-serif;
 }
 .container {
   width: 80% ;
-  height: 150px;
   margin: auto;
-  background-color: green;
 }
 .navigazione-1 {
   width: 50%;
   height: 100%;
-  background-color: yellow;
   float: left;
 }
 .navigazione-2 {
   width: 50%;
   height: 100%;
-  background-color: red;
   float: left;
+
 }
 .clearfix::after {
   content: '';
   display: block;
   clear: both;
+}
+.info  ul li {
+  display: inline-block;
+  margin-top: 60px;
+}
+.info ul li a {
+  color: #003d4d;
+  font-size: 20px;
+}
+ul li a {
+  text-decoration: none;
+}
+
+.separatore {
+  display: inline-block;
+  height: 20px;
+  vertical-align: middle;
+  margin: 0 15px;
+}
+.login {
+  margin-left: 40%;
+}
+.login ul li {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 60px;
+  vertical-align: middle;
+}
+.btn-1 {
+  border: 2px solid #ff7733;
+  width: 100px;
+  border-radius: 8px;
+  margin: 0 15px;
+}
+.btn-1 a {
+  color: #ff7733;
+  text-decoration: none;
+}
+
+.btn-2 {
+  width: 160px;
+  border-radius: 8px;
+  background-color: #ff7733;
+  border: 1px solid #fff;
+}
+.btn-2 a {
+  color: #fff;
+  text-decoration: none;
+}
+#search {
+  color: #00ccff;
+  font-size: 20px;
 }
