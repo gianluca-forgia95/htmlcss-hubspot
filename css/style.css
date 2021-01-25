@@ -7,7 +7,7 @@ body {
 font-family: 'Montserrat', sans-serif;
 
 }
-/* navigazione iniziale */
+/*stile navigazione iniziale */
 .container {
   width: 80% ;
   margin: auto;
@@ -81,14 +81,14 @@ ul li a {
   color: #00ccff;
   font-size: 20px;
 }
-/*/navigazione iniziale */
+/*/stile navigazione iniziale */
 /* separatore sezioni */
 .hr-iniziale {
   color: #003d4d;
   margin-top: 20px;
 }
 /* /separatore sezioni */
-/* seconda navigazione */
+/*stile seconda navigazione */
 .row {
   width: 80% ;
   margin: auto;
@@ -116,8 +116,8 @@ ul li a {
 .src ul li a {
   color: #003d4d;
 }
-/* /seconda navigazione */
-/* Hero */
+/* /stile seconda navigazione */
+/* Stile Hero */
 .hero {
   width: 80%;
   margin: auto;
@@ -153,4 +153,29 @@ margin-bottom: 20px;
 
 }
 
-/* /Hero */
+/* /Stile Hero */
+/* stile sezione centrata */
+.centered {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.centered > img {
+  width: 20%;
+
+}
+.title-cnt {
+  line-height: 80px;
+}
+.p-cnt {
+  height: 20%;
+  line-height: 25px;
+}
+/* /stile sezione centrata */
+.box-intestazione {
+  width: 50%;
+  margin: auto;
+  height: 300px;
+
+ }
