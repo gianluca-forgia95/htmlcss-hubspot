@@ -111,7 +111,7 @@ ul li a {
   margin-left: 15px;
 }
 .angle {
-  margin: 0 10px;
+  margin: 0 5px;
 }
 .src ul li a {
   color: #003d4d;
@@ -121,12 +121,22 @@ ul li a {
 .hero {
   width: 80%;
   margin: auto;
-  background-color: #ffddcc;
   height: 600px;
   background-image: url('../img/jumbotron.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom right;
+}
+.background-hero {
+  width: 100%;
+  background-color: #F5F5DC;
+}
+.row-hero {
+  height: 70px;
+  background-color: #7FFFD4;
+  margin-top: 100px;
+  border-top: 4px solid #003d4d;
+  border-bottom: 4px solid  #003d4d;
 }
 .hero-text {
   width: 50%;
@@ -190,7 +200,7 @@ margin-bottom: 20px;
  .book-img {
    width: 30%;
    float: left;
-   margin-top: 50px;
+   margin-top: 75px;
  }
 .book-img > img {
 width: 80%;
@@ -254,6 +264,7 @@ width: 80%;
   border-radius: 3px;
   margin-right: 40px;
   color: #003d4d;
+  padding-left: 2%;
 
 }
 .img-box > img {
@@ -342,5 +353,44 @@ width: 80%;
 .plus {
   margin-left: 5px;
   width: 10%;
+  font-size: 14px;
 }
 /* /sezione gradient */
+/* sezione sponsor */
+.sponsor {
+  height: 300px;
+  color: #003d4d;
+  width: 70%;
+  margin: auto;
+  padding-top: 20px;
+}
+.sponsor-number {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+.p-sponsor {
+  width: 40%;
+  margin: auto;
+  padding-top: 20px;
+}
+.sponsor-logo {
+  width: 50%;
+  float: left;
+}
+.sponsor-row {
+vertical-align: middle;
+
+}
+.sponsor-img > img {
+  width: 22%;
+  height: 50%;
+  float: left;
+  margin-left: 8px;
+  vertical-align: middle;
+  padding: 15px;
+
+}
+/* /sezione sponsor */
