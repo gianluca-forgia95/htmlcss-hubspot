@@ -292,7 +292,7 @@ width: 80%;
 }
 .nav-tris  a {
   color: #003d4d;
-  margin-left: 20px;
+  margin-left: 35px;
 }
 .nav-tris i {
   margin-right: 20px;
@@ -350,8 +350,8 @@ width: 80%;
 .row-gr-2 {
   border-bottom: none;
 }
-.plus {
-  margin-left: 5px;
+.plus  {
+  vertical-align: middle;
   width: 10%;
   font-size: 14px;
 }
@@ -367,30 +367,31 @@ width: 80%;
 .sponsor-number {
   text-align: center;
   margin: auto;
-  width: 50%;
+  width: 30%;
   float: left;
   padding: 20px;
 }
 .p-sponsor {
-  width: 40%;
+  width: 60%;
   margin: auto;
   padding-top: 20px;
 }
 .sponsor-logo {
-  width: 50%;
+  width: 70%;
   float: left;
+  margin-top: 30px;
 }
 .sponsor-row {
-vertical-align: middle;
+  text-align: right;
 
+}
+.sponsor-img {
+  display: inline-block;
+  width: 23%;
 }
 .sponsor-img > img {
-  width: 22%;
-  height: 50%;
-  float: left;
-  margin-left: 8px;
+  max-width: 70%;
   vertical-align: middle;
-  padding: 15px;
-
 }
+
 /* /sezione sponsor */
