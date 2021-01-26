@@ -179,7 +179,7 @@ margin-bottom: 20px;
 .box-intestazione {
   width: 50%;
   margin: auto;
-  height: 300px;
+  height: 350px;
  }
  .box-book {
    width: 80%;
@@ -210,7 +210,9 @@ width: 80%;
 }
 #row-feature  {
   display: inline-block;
-
+  width: 200px;
+  vertical-align: middle;
+  margin-left: 2px;
 }
 .nav-feature ul li  {
   display: inline-block;
@@ -234,4 +236,48 @@ width: 80%;
 }
 .nav-feature i {
   margin-right: 10px;
+}
+/*/box intestazione */
+.container-3cln {
+  width: 80%;
+  margin: auto;
+  height: 500px;
+  margin-top: 50px;
+}
+.box-tris {
+  width: 30%;
+  padding: 0 10px;
+  text-align: center;
+  float: left;
+  box-shadow:  10px 10px 10px -5px black;
+  margin-right: 40px;
+  color: #003d4d;
+}
+.img-box > img {
+  height: 150px;
+}
+.title-box-tris {
+  line-height: 30px;
+  padding: 20px;
+}
+.p-box-tris {
+  padding: 20px;
+}
+
+.title-nav-box-tris {
+   margin: 40px 0;
+
+}
+.nav-tris ul li {
+  list-style: none;
+  text-align: left;
+}
+
+.btn-tris {
+  margin: auto;
+  margin-top: 30px;
+  line-height: 40px;
+}
+.btn-tris a {
+  vertical-align: middle;
 }
