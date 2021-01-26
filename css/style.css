@@ -126,6 +126,7 @@ ul li a {
   background-image: url('../img/jumbotron.png');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .hero-text {
   width: 50%;
@@ -160,9 +161,10 @@ margin-bottom: 20px;
   margin: auto;
   text-align: center;
   margin-top: 40px;
+  color: #003d4d;
 }
 .centered > img {
-  width: 20%;
+  width: 30%;
 
 }
 .title-cnt {
@@ -173,9 +175,63 @@ margin-bottom: 20px;
   line-height: 25px;
 }
 /* /stile sezione centrata */
+/* box intestazione */
 .box-intestazione {
   width: 50%;
   margin: auto;
   height: 300px;
-
  }
+ .box-book {
+   width: 80%;
+   box-shadow: 10px 10px 10px -5px;
+   margin: auto;
+   margin-top: 60px;
+ }
+ .book-img {
+   width: 30%;
+   float: left;
+   margin-top: 50px;
+ }
+.book-img > img {
+width: 80%;
+}
+.book-img > .btn-2 {
+  margin-top: 30px;
+  width: 50%;
+
+   margin-left: 30px;
+}
+.hubspot-crm {
+  width: 70%;
+  float: left;
+  color:  #003d4d;
+  margin-top: 60px;
+  line-height: 20px;
+}
+#row-feature  {
+  display: inline-block;
+
+}
+.nav-feature ul li  {
+  display: inline-block;
+  margin-top: 30px;
+
+}
+.title-feature {
+  margin: 20px 0;
+}
+
+.orange {
+  color: #ff7733;
+}
+.nav-feature a {
+  margin: 0 10px;
+  color: #003d4d;
+}
+.hubspot-crm p {
+  line-height: 30px;
+  margin: 20px 0;
+}
+.nav-feature i {
+  margin-right: 10px;
+}
