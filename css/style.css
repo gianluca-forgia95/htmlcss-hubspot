@@ -430,10 +430,10 @@ width: 80%;
 }
 /* /sezione start */
 footer {
-  height:600px;
+  height:500px;
   background-color: #003d4d;
-  width: 100%;
-  margin: auto;
+  width: 100%
+
 }
 .footer-top {
   text-align: center;
@@ -480,5 +480,33 @@ footer {
 }
 .lingue a {
   margin-left: 20px;
+  color: #fff;
+}
+.row-footer {
+  margin-top: 20px;
+}
+.copyright {
+  height: 120px;
+}
+.logo-cr {
+  float: left;
+  padding: 23px 0;
+}
+.logo-cr > h4 {
+  color: #fff;
+}
+.cr {
+  margin-left: 5px;
+  margin-right: 3px;
+}
+.privacy {
+  float: right;
+  padding: 48px 0;
+}
+.privacy ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.privacy a {
   color: #fff;
 }
