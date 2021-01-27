@@ -14,13 +14,13 @@ font-family: 'Montserrat', sans-serif;
 }
 .navigazione-1 {
   width: 50%;
-  height: 100%;
   float: left;
+  height: 80px
 }
 .navigazione-2 {
   width: 50%;
-  height: 100%;
-  float: left;
+  float: right;
+  height: 80px;
 
 }
 .clearfix::after {
@@ -30,7 +30,7 @@ font-family: 'Montserrat', sans-serif;
 }
 .info  ul li {
   display: inline-block;
-  margin-top: 60px;
+  padding: 40px 0;
 }
 .info ul li a {
   color: #003d4d;
@@ -50,19 +50,20 @@ nav ul li {
   margin: 0 15px;
 }
 .login {
-  margin-left: 40%;
+  margin-left: 180px;
 }
-.login ul li {
+.login ul li  {
   display: inline-block;
-  padding: 10px;
-  margin-top: 60px;
-  vertical-align: middle;
+  padding: 15px 0;
+  margin-top: 20px;
+
 }
 .btn-1 {
   border: 2px solid #ff7733;
   width: 100px;
   border-radius: 8px;
-  margin: 0 15px;
+  margin: 0 10px;
+  text-align: center;
 }
 .btn-1 a {
   color: #ff7733;
@@ -82,7 +83,8 @@ nav ul li {
 }
 #search {
   color: #00ccff;
-  font-size: 20px;
+  font-size: 25px;
+  vertical-align: middle;
 }
 /*/stile navigazione iniziale */
 /* separatore sezioni */
@@ -364,15 +366,16 @@ width: 80%;
   padding-top: 20px;
 }
 .sponsor-number {
-  text-align: center;
   margin: auto;
   width: 30%;
   float: left;
   padding: 20px;
 }
+.sponsor-number > h2 {
+  font-size: 35px;
+}
 .p-sponsor {
   width: 60%;
-  margin: auto;
   padding-top: 20px;
 }
 .sponsor-logo {
@@ -429,6 +432,7 @@ width: 80%;
 
 }
 /* /sezione start */
+/* stile footer */
 footer {
   height:500px;
   background-color: #003d4d;
@@ -464,10 +468,13 @@ footer {
   border-radius: 6px;
   color: #003d4d;
   line-height: 60px;
+  padding: 13px 0;
 }
-
+.social ul li {
+  display: inline-block;
+}
 .scl {
-  margin-left: 22px;
+  margin-left: 20px;
   color: #fff;
 }
 .footer-bottom {
@@ -510,3 +517,4 @@ footer {
 .privacy a {
   color: #fff;
 }
+/* /stile footer */
