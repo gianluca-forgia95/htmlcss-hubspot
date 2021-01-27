@@ -7,15 +7,22 @@ body {
 font-family: 'Montserrat', sans-serif;
 
 }
-/*stile navigazione iniziale */
+/* mix */
 .container {
   width: 80% ;
   margin: auto;
 }
+.background-grey {
+  background-color: #f5f8fa;
+}
+
+/* /mix */
+/* stile navigazione iniziale */
 .navigazione-1 {
   width: 50%;
   float: left;
-  height: 80px
+  height: 80px;
+
 }
 .navigazione-2 {
   width: 50%;
@@ -167,6 +174,9 @@ margin-bottom: 20px;
 }
 
 /* /Stile Hero */
+.background-grey {
+  background-color: #f5f8fa;
+}
 /* stile sezione centrata */
 .centered {
   width: 50%;
@@ -434,7 +444,7 @@ width: 80%;
 /* /sezione start */
 /* stile footer */
 footer {
-  height:500px;
+  height:630px;
   background-color: #003d4d;
   width: 100%
 
@@ -443,12 +453,14 @@ footer {
   text-align: center;
   margin: auto;
   height: 50%;
+
 }
 .cln-footer {
   width: 23%;
   display: inline-block;
   color: #fff;
   vertical-align: top;
+  margin-top: 30px;
 }
 .nav-footer-top {
   margin-top: 30px;
@@ -479,7 +491,7 @@ footer {
 }
 .footer-bottom {
   height: 100%;
-
+  margin-top: 100px;
 
 }
 .lingue ul li  {
@@ -491,6 +503,7 @@ footer {
 }
 .row-footer {
   margin-top: 20px;
+  background-color: #fff;
 }
 .copyright {
   height: 120px;
