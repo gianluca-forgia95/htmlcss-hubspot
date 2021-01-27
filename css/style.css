@@ -39,6 +39,9 @@ font-family: 'Montserrat', sans-serif;
 ul li a {
   text-decoration: none;
 }
+nav ul li {
+  list-style: none;
+}
 
 .separatore {
   display: inline-block;
@@ -118,21 +121,18 @@ ul li a {
 }
 /* /stile seconda navigazione */
 /* Stile Hero */
-.hero {
-  width: 80%;
-  margin: auto;
-  height: 600px;
-  background-image: url('../img/jumbotron.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: bottom right;
-}
+
 .background-hero {
   width: 100%;
   background-color: #F5F5DC;
+  background-image: url('../img/jumbotron.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 .row-hero {
-  height: 70px;
+  width: 100%;
+  height: 81px;
   background-color: #7FFFD4;
   margin-top: 100px;
   border-top: 4px solid #003d4d;
@@ -311,8 +311,7 @@ width: 80%;
   background: rgb(0,28,36);
   background: linear-gradient(90deg, rgba(0,28,36,1) 0%, rgba(9,9,121,1) 0%, rgba(8,139,142,1) 0%, rgba(6,81,169,1) 0%, rgba(17,171,226,1) 0%, rgba(3,147,212,1) 0%, rgba(0,212,255,1) 99%);
   height: 600px;
-  margin: auto;
-  width: 80%;
+
 }
 .title-gradient {
   text-align: center;
@@ -397,30 +396,26 @@ width: 80%;
 /* /sezione sponsor */
 
 /* sezione start */
-.start {
-  width: 80%;
-  margin: auto;
-}
+
 .start-text {
   width: 50%;
   float: left;
-  padding: 50px;
+  padding: 45px;
   color: #003d4d;
 }
 .title-start {
   width: 90%;
-  padding-bottom: 10px;
   font-weight: 800;
   font-size: 35px;
 }
 .description-start {
-  margin-top: 60px;
+  margin-top: 30px;
   line-height: 30px;
   width: 80%;
 }
 .btn-start {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   line-height: 50px;
 }
 
@@ -431,5 +426,59 @@ width: 80%;
 }
 .start-img > img {
   width: 50%;
-  margin-top: 25%;
+
+}
+/* /sezione start */
+footer {
+  height:600px;
+  background-color: #003d4d;
+  width: 100%;
+  margin: auto;
+}
+.footer-top {
+  text-align: center;
+  margin: auto;
+  height: 50%;
+}
+.cln-footer {
+  width: 23%;
+  display: inline-block;
+  color: #fff;
+  vertical-align: top;
+}
+.nav-footer-top {
+  margin-top: 30px;
+  line-height: 40px;
+  list-style: none;
+}
+.nav-footer-top li a {
+ color: #fff;
+}
+
+
+.nav-footer-top > .btn-footer {
+  color:#003d4d;
+}
+#btn-footer {
+  background-color: #fff;
+  border-radius: 6px;
+  color: #003d4d;
+  line-height: 60px;
+}
+
+.scl {
+  margin-left: 22px;
+  color: #fff;
+}
+.footer-bottom {
+  height: 100%;
+
+
+}
+.lingue ul li  {
+  display: inline-block;
+}
+.lingue a {
+  margin-left: 20px;
+  color: #fff;
 }
